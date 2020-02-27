@@ -2,10 +2,10 @@
 def merge( arrA, arrB ):
     elements = len( arrA ) + len( arrB )
     merged_arr = [0] * elements
-    print(merged_arr)
     # TO-DO
     
     return merged_arr
+
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
 def merge_sort( arr ):
@@ -31,6 +31,3 @@ def merge_sort_in_place(arr, l, r):
 def timsort( arr ):
 
     return arr
-arr1 = [1, 5, 8, 4, 2, 9, 6, 0, 3, 7]
-arr2 = [4,5,6,3,2,1,345,]
-merge(arr1, arr2)
